@@ -20,6 +20,6 @@
 
         public override string ToString() { return $"Name: {Name}\nAge: {Age}\nCountry of Birthday: {COfB}\nLanguage: {Language}\nCurrent Residence: {CurRes}\nPrevious Residence: {PrevRes}  "; }
         public string ToStringAdditionalInfo() { return $"Language: {Language}\nCurrent Residence: {CurRes}\nPrevious Residence: {PrevRes}  "; }
-        public string ToStringBaseInfo() { return $"Name: {Name}\nAge: {Age}\nCountry of Birthday: {COfB}"; }
+        public string ToStringBaseInfo() { return $"Name: {Name}\nAge: {Age}\nCountry of Birthday: {COfB}";  }
     }
 }
